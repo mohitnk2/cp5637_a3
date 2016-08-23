@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>Welcome to Compu-Tech</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-
+Type" />
+
+
+<title>CSS Dropdown Menu</title>
+  
+<link href="style.css" rel="stylesheet" >
+
+<style type="text/css">
+/*
+Brown: #613838
+Red: #e32026
+Green: #93d4cd
+Black: #000
+*/
+/* ------------ Page Background ------------ */
+body {
+font-family: arial, sans-serif;
+background-color: #93d4cd;
+}
+/* ------------ Page Wrapper ------------ */
+div#wrapper {
+width: 960px;
+background-color: #fff;
+margin-left: auto;
+margin-right: auto;
+}
+/* ------------ Page Header ------------ */
+div#header {
+width: 960px;
+height: 95px;
+background-image: url(images/logo3.jpg);
+	}
+/* ------------ Header Text ------------ */
+h1.head, h3.subhead {
+font-family: georgia, serif;
+margin-left: 20px;
+color: #613838;
+}
+h1.head {
+font-size: 2.25em;
+padding-top: 15px;
+}
+h3.subhead {
+margin-top: -20px;
+letter-spacing: 1px;
+}
+/* ------------ Navigation Bar------------ */
+ul#navlist li {
+display: inline;
+list-style-type: none;
+padding-right: 30px;
+}
+ul#navlist {
+background-color: #613838;
+margin-top: -5px;
+padding: 5px 5px 5px 20px;
+}
+ul#navlist li a {
+color:#000;
+text-decoration: none;
+font-size: .85em;
+}
+#navlist li a:hover {color: #fff;}
+
+/* ------------ Page Columns------------ */
+div#leftcol {
+float: left;
+width: 190px;
+margin-left: 2px;
+}
+div#maincol {
+float: left;
+width: 580px;
+margin-left: 15px;
+margin-right: 15px;
+}
+div#rightcol {
+width: 156px;
+float: left;
+margin-right: 2px;
+}
+div#footer {
+background-color: #613838;
+height: 20px;
+clear: both;
+}
+/* ------------ Small Feature Boxes ------------ */
+div.smfeature {
+width: 190px;
+height: auto;
+border: thin solid #000;
+margin-bottom: 10px;
+}
+div.smfeature h4 {
+font-family: arial, sans-serif;
+font-size: 85%;
+color: #fff;
+background: #613838;
+text-align: center;
+letter-spacing: 2px;
+padding: .5em;
+margin-top: 0px;
+}
+div.smfeature p {
+font-family: arial, sans-serif;
+font-size: 75%;
+color: #000;
+margin: 10px;
+}
+div.smfeature img {
+float: left;
+margin-right: 5px;
+}
+/* ------------ Feature Article ------------ */
+div#maincol p {
+font-size: 85%;
+line-height: 1.25em;
+}
+img.feature2 {
+float:left;
+margin-right: 5px;
+}
+/* ------------ Search Box ------------ */
+div#searchbox {
+width: 155px;
+height: auto;
+border: thin solid #000;
+background: #613838;
+margin-bottom: 20px;
+text-align: center;
+}
+div#searchbox h4 {
+font-size: 85%;
+color: #fff;
+background-color: #613838;
+letter-spacing: 2px;
+padding: .5em;
+margin-top: 0px;
+}
+/* ------------ Links Section ------------ */
+div#links{
+width: 150px;
+height: auto;
+border: solid thin #000;
+}
+div#links p {padding-left: 20px;}
+div#links p a:link {color: #613838;}
+div#links p a:visited {color: #613838;}
+div#links p a:hover {border-bottom: solid #613838;}
+div#links p a {text-decoration: none;}
+img.nextmonth {padding-left: 0 px;}
+</style>
+</head>
+<body>
+<div id="wrapper"> <!-- Open Wrapper -->
+<!-- Header -->
+<div id="header">
+<h1 class="head">
+
+</h1>
+<h3 class="subhead">
+
+</h3>
+</div>
+<!-- Navigation --> 
+	
+<ul class="main-nav">
+ 
+<li><a href="index.html">Home</a></li>              
+<li><a href="AboutUs.html">About us</a></li>
+<li><a href="ContactUs.html">Contact Us</a></li>
+<li><a href="Reg.html">Registration</a></li> 
+<li><a href="login.php">Log-in</a></li>
+<li><a href="#">Support</a></li>
+<li class="dropdown">
+        
+<a href="#">Products</a>
+        
+<ul class="drop-nav">
+          
+<li><a href="laptops.html">Laptops</a></li>
+          
+<li><a href="mobiles.html">Mobiles</a></li>
+
+<li><a href="ipads.html">Ipads</a></li>
+              
+</li>
+
+</ul> 
+                 
+</ul>
+  
+<!-- Left Column -->
+<div id="leftcol">
+<div class="smfeature">
+<h4>Laptop</h4>
+<p>
+<img src="images/laptop.jpg" width="64" height="83"
+alt="Reader Emails Image" border="0" class="left" />
+All latest models of laptops like Apple, Dell, Samsung, Compac, and etc. are on interesting deals and hot offers. Wide varieties and awesome features of these all will make you more crazy for them!!</p>
+</div>
+<div class="smfeature">
+<h4>IPads</h4>
+<p>
+<img src="images/ipad.jpg" width="64" height="79"
+alt="Dog Advice Image" border="0" class="left" />
+A wide range of Apple, Samsung, Sony, Vodafone all expensive brands as well as of affordabale prizes are available for the all interested customers. Why thinking more? Try anyone. We are here!</p>
+</div>
+<div class="smfeature">
+<h4>Accessories</h4>
+<p>
+<img src="images/mobileass.jpg" width="64" height="63"
+alt="Editorial Image" border="0" class="left" />
+Every kind of mobile accessories such as earphones, USB cables, Selfie stands are available on exiting prizes on Compu-Tech. You can buy any of them individually as well if you are interested.</p>
+</div>
+</div>
+<!-- End Left Column -->
+<!-- Main Column -->
+<div id="maincol">
+<img src="images/m1.jpg" width="285" height="150" alt="Dogs
+at Work Image" title="Compu-Tech gadgets" />
+<img src="images/m2.jpg" width="290" height="150" alt="Dogs
+at Work Image" title="Compu-Tech gadgets" />
+<img src="images/m3.jpg" width="285" height="150" alt="Dogs
+at Work Image" title="Compu-Tech gadgets" />
+<img src="images/m4.jpg" width="290" height="150" alt="Dogs
+at Work Image" title="Compu-Tech gadgets" />
+<img src="images/m5.jpg" width="285" height="150" alt="Dogs
+at Work Image" title="Compu-Tech gadgets" />
+<img src="images/m6.jpg" width="290" height="150" alt="Dogs
+at Work Image" title="Compu-Tech gadgets" />
+
+<hr/>
+<p><img src="images/m7.jpg" width="580"  alt="Dog photo"
+border="0" class="feature2" />
+
+<h1><a href="order form.html">Click here order online</a></h1>
+</div>
+<!-- End Main Column -->
+<!-- Right Column -->
+<div id="rightcol">
+<div id="searchbox">
+<h4>Search the Site</h4>
+<form method="get" action=" ">
+<p class="form"><input type="text" value="Enter search text..."maxlength="25" size="17" /></p>
+<p class="form"><input type="submit" /></p>
+</form>
+</div>
+<div id="links">
+<img src="images/tech.jpg" class="links" width="150"
+height="106" alt="Sponsored Links" title="Sponsored Links"
+border="0" />
+<p><a href=" ">About Us</a></p>
+<p><a href=" ">Products</a></p>
+<p><a href=" ">FAQS</a></p>
+<p><a href=" ">Sign In</a></p>
+<p><a href=" ">Sign Up</a></p>
+<img class="nextmonth" src="images/rc.jpg" width="150"
+height="176" alt="Next Month Image" border="0" />
+</div>
+</div>
+<!-- End Right Column -->
+<!-- Footer -->
+<div id="footer">
+</div>
+<!-- End Footer -->
+</div> <!-- Close Wrapper -->
+</body>
+</html>
+
+
